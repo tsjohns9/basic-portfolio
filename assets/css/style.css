@@ -1,4 +1,7 @@
 /* Global Styles */
+* {
+  box-sizing: border-box;
+}
 
 body {
   color: #777777;
@@ -18,9 +21,11 @@ h1,h2,h3,h4,h5,h6 {
   clear: both;
 }
 
+/* Header & nav bar */
+
 header {
   border-bottom: solid 1px #cccccc;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   position: relative;
 }
 
@@ -29,7 +34,7 @@ header h1 {
   color: white;
   float: left;
   font-size: 32px;
-  padding: 12px;
+  padding: 25px 30px;
 }
 
 nav {
@@ -46,7 +51,7 @@ nav ul {
 }
 
 nav ul li {
-  float: left;
+  display: inline;
   margin-right: 10px;
   padding-right: 10px;
   border-right: solid 1px #dddddd;
@@ -70,51 +75,51 @@ a:hover {
 .main-section-content {
   background: #ffffff;
   line-height: 30px;
-  padding: 20px;
   width: 650px;
   border: solid 1px #dddddd;
-  margin-right: 50px;
+  float: left;
+  margin-right: 40px;
+  padding: 40px 28px;
 }
 
 .main-section-content h1 {
   font-size: 32px;
   border-bottom: solid 2px #dddddd;
-  margin-bottom: 20px;
   padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 #profile-pic {
   float: left;
   height: 200px;
-  margin-right: 25px;
   width: 200px;
+  margin-right: 20px;
 }
-
-/* #main-section-content::after {
-  content: "";
-  display: block;
-  clear: both;
-} */
 
 /* Sidebar */
 
 .sidebar {
   background: #ffffff;
-  /* border: solid 1px #dddddd; */
+  float: left;
+  width: 270px;
+  border: solid 1px #dddddd;
+  padding: 28px;
 }
 
 .sidebar h2 {
-  
+  border-bottom: solid 2px #dddddd;
   font-size: 24px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.sidebar div {
+  display: table;
+  margin: 0 auto;
 }
 
 .sidebar ul li {
   margin-right: 12px;
+  display: inline;
 }
-
-
-
-
-/* footer {
-  background: #666666;
-} */
