@@ -26,10 +26,8 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Header & nav bar */
 
-
 header {
   background: #fff;
-  padding: 0 auto;
   border-bottom: solid 2px #ccc;
 }
 
@@ -48,7 +46,6 @@ header h1 {
 }
 
 nav {
-  float: right;
   position: absolute;
   top: 50%;
   right: 0%;
@@ -87,7 +84,6 @@ a:hover {
 .container { /* Used to create sticky footer */
   min-height: calc(100vh - 60px);
 }
-
 
 .entire-content-area {
   width: 960px;
@@ -156,5 +152,6 @@ footer {
   color: rgb(182, 182, 182);
   text-align: center;
   height: 60px;
-  padding: 25px; 0;
+  padding: 25px 0;
+  width: 100%;
 }
