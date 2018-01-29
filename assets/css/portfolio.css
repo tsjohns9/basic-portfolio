@@ -1,0 +1,11 @@
+#image-container img {
+  margin-bottom: 50px;
+}
+
+#image-container img:nth-child(odd) {
+  margin-right: 40px;
+}
+
+#image-container img:last-child {
+  margin-bottom: 0;
+}
