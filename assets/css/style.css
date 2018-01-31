@@ -29,6 +29,7 @@ h1,h2,h3,h4,h5,h6 {
 header {
   background: #fff;
   border-bottom: solid 2px #ccc;
+  width: 100%;
 }
 
 header div {
@@ -139,11 +140,15 @@ a:hover {
   margin: 0 auto;
 }
 
-.sidebar ul li {
+
+.sidebar div ul li {
   margin-right: 12px;
   display: inline;
 }
 
+.sidebar div ul li:last-child {
+  margin-right: 0;
+}
 /* Footer */
 
 footer {

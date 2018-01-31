@@ -1,9 +1,14 @@
+#image-container {
+  text-align: justify;
+  margin: 0 25px;
+}
+
 #image-container img {
   margin-bottom: 50px;
 }
 
 #image-container img:nth-child(odd) {
-  margin-right: 40px;
+
 }
 
 #image-container img:last-child {
